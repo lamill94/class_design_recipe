@@ -9,7 +9,6 @@ _Put or write the user story here. Add any clarifying notes you might have._
 _Include the initializer, public properties, and public methods with all parameters, return values, and side-effects._
 
 ```python
-# EXAMPLE
 
 class Reminder:
     # User-facing properties:
@@ -44,7 +43,6 @@ class Reminder:
 _Make a list of examples of how the class will behave in different situations._
 
 ``` python
-# EXAMPLE
 
 """
 Given a name and a task

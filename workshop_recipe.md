@@ -122,32 +122,7 @@ def test_increase_health():
     result = gamePlayer.current_health()
     assert result == 50
 
-
-"""
-Given a name and a task
-#remind reminds the user to do the task
-"""
-reminder = Reminder("Kay")
-reminder.remind_me_to("Walk the dog")
-reminder.remind() # => "Walk the dog, Kay!"
-
-"""
-Given a name and no task
-#remind raises an exception
-"""
-reminder = Reminder("Kay")
-reminder.remind() # raises an error with the message "No task set."
-
-"""
-Given a name and an empty task
-#remind still reminds the user to do the task, even though it looks odd
-"""
-reminder = Reminder("Kay")
-reminder.remind_me_to("")
-reminder.remind() # => ", Kay!"
 ```
-
-_Encode each example as a test. You can add to the above list as you go._
 
 ## 4. Implement the Behaviour
 
